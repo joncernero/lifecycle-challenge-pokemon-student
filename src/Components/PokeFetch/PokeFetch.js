@@ -9,6 +9,7 @@ class PokeFetch extends Component {
       pokeSprite: '',
       pokeName: '',
       currentCount: 10,
+      answer: '',
     };
   }
 
@@ -86,6 +87,7 @@ class PokeFetch extends Component {
                 ? { filter: 'brightness(100%)' }
                 : { filter: 'brightness(0%)' }
             }
+            alt='/'
           />
           <h1
             className={'pokeName'}
