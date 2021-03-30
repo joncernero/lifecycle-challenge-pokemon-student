@@ -48,22 +48,9 @@ class PokeFetch extends Component {
     clearInterval(this.intervalId);
   }
 
-  // displayTimer = () => {
-  //   let countDown = this.state.currentCount;
-  //   return countDown;
-  // };
-
   resetState = () => {
     this.setState({ currentCount: 10 });
   };
-
-  // displayChange = () => {
-  //   if (this.displayTimer() === 0) {
-  //     document.getElementById('pokeImg').className = 'filter: brightness(100%)';
-  //     document.getElementById('pokeName').className = 'opacity: 1';
-  //   }
-  //   return this.displayChange();
-  // };
 
   render() {
     return (
